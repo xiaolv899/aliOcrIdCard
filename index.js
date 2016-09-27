@@ -49,7 +49,7 @@ AliOcrIdCard.prototype.get = function (base64_image_string, side, callback) {
         }
     }
 
-    var bodymd5 = md5(new Buffer(options.body));
+    var bodymd5 = util.md5(new Buffer(options.body));
     var span = '\n'
     var stringToSign = options.method + span + options.headers.Accept + span + bodymd5 + span + options.headers['Content-Type'] + span + options.headers.Date + span + "X-Ca-Key:" + this._key + span + url.parse(options.url).path;
     var signature = util.sha256(stringToSign, this._secret);
