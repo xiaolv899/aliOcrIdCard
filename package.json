@@ -1,8 +1,19 @@
 {
   "name": "aliOcrIdCard",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "阿里云API － 身份证图片信息识别接口",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaolv899/aliOcrIdCard.git"
+  },
+  "keywords": [
+    "阿里ocr",
+    "身份证",
+    "身份证识别",
+    "身份证信息识别",
+    "身份证图片识别"
+  ],
   "author": "xiaolv899@gmail.com",
   "license": "MIT",
   "homepage": "https://github.com/xiaolv899/aliOcrIdCard"
