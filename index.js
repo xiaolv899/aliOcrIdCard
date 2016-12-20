@@ -36,7 +36,7 @@ AliOcrIdCard.prototype.get = function (base64_image_string, side, callback) {
                     },
                     "configure": {
                         "dataType": 50,
-                        "dataValue": "{\"side\": \"face\"}"
+                        "dataValue": "{\"side\": \"" + side + "\"}"
                     }
                 }]
         }),
