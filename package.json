@@ -1,6 +1,6 @@
 {
   "name": "aliOcrIdCard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "阿里云API － 身份证图片信息识别接口",
   "main": "index.js",
   "repository": {
